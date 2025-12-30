@@ -36,7 +36,8 @@ namespace AppWebApi.Controllers
             }
         }
 
-        public GuestController(IAdminService service, ILogger<GuestController> logger)
+        public GuestController(IAdminService service,
+                ILogger<GuestController> logger)
         {
             _service = service;
             _logger = logger;
